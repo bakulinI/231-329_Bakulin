@@ -1,0 +1,24 @@
+@layer tailwind-base, antd;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
+
+.rcb-chat-footer + span{
+	display: none;
+}
+.rcb-bot-avatar{
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	background-position: center;
+}
+.my-container{
+  	max-width: calc(1920px + 2 * 1.875rem);
+	margin: 0 auto;
+	width: 100%;
+	padding-left: 1.875rem;
+	padding-right: 1.875rem;
+}

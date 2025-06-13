@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b25870d9-cad3-40fd-a819-bb57dd915733" name="Changes" comment="frontend + backend req" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bakulinI&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bakulinI/231-329_Bakulin.git",
+    "accountId": "6bd72cdc-73ea-4a10-b54f-8582d9b39d92"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2uDqlU9oFGOWoQssRzNX4uhc871" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.assistify.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ilaba/OneDrive/Рабочий стол/Архитектура/assistify&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\PycharmProjects\\assistify\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\assistify\backend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="assistify" type="Python.DjangoServer" factoryName="Django server">
+      <module name="assistify" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b25870d9-cad3-40fd-a819-bb57dd915733" name="Changes" comment="" />
+      <created>1741793643521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741793643521</updated>
+      <workItem from="1741793644566" duration="2536000" />
+      <workItem from="1741845793940" duration="112000" />
+      <workItem from="1741970173679" duration="5900000" />
+      <workItem from="1741976179735" duration="581000" />
+      <workItem from="1742028191895" duration="3894000" />
+      <workItem from="1742054614406" duration="35000" />
+      <workItem from="1742572933823" duration="4966000" />
+      <workItem from="1743176484623" duration="406000" />
+      <workItem from="1743184962131" duration="7260000" />
+      <workItem from="1743192371744" duration="929000" />
+      <workItem from="1743226510251" duration="364000" />
+      <workItem from="1743236831218" duration="4383000" />
+      <workItem from="1743577297020" duration="43000" />
+      <workItem from="1743841406961" duration="3856000" />
+      <workItem from="1744218076807" duration="9000" />
+      <workItem from="1744965941627" duration="7416000" />
+      <workItem from="1745059410466" duration="309000" />
+      <workItem from="1745061061350" duration="1530000" />
+      <workItem from="1745335951339" duration="24000" />
+      <workItem from="1745608422941" duration="842000" />
+      <workItem from="1746194225516" duration="7172000" />
+      <workItem from="1746207704680" duration="762000" />
+      <workItem from="1746265246767" duration="2338000" />
+      <workItem from="1746267755141" duration="1315000" />
+      <workItem from="1746272732718" duration="4921000" />
+      <workItem from="1746353258110" duration="52000" />
+      <workItem from="1747223990016" duration="1543000" />
+      <workItem from="1747249596932" duration="91000" />
+      <workItem from="1747396817446" duration="3055000" />
+      <workItem from="1748689753213" duration="3731000" />
+      <workItem from="1748694480338" duration="5443000" />
+      <workItem from="1749114296644" duration="201000" />
+      <workItem from="1749372754068" duration="15000" />
+      <workItem from="1749849384254" duration="99000" />
+      <workItem from="1749849563264" duration="39000" />
+      <workItem from="1749849637121" duration="1393000" />
+    </task>
+    <task id="LOCAL-00001" summary="frontend + backend req">
+      <option name="closed" value="true" />
+      <created>1742031640356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742031640356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frontend + backend req" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend + backend req" />
+  </component>
+</project>

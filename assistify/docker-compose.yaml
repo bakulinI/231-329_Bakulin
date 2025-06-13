@@ -1,0 +1,72 @@
+services:
+  backend-provision-service:
+    container_name: backend-provision-container
+    image: backend-image
+    build: ./backend
+    restart: "always"
+    command: >
+      sh -c "
+      sleep 15 &&
+      python manage.py migrate --noinput"
+    volumes:
+        - .:/code
+    env_file:
+      - backend/.env
+    networks:
+      - app-network
+    depends_on:
+      - db
+
+  backend-service:
+    image: backend-image
+    build: ./backend
+    command: bash -c "sleep 10 && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    env_file:
+      - backend/.env
+    depends_on:
+      - db
+      - backend-provision-service
+    networks:
+      - app-network
+    ports:
+      - 8000:8000
+    restart: unless-stopped
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    networks:
+      - app-network
+
+  db:
+    container_name: postgres-container
+    image: postgres:17-alpine
+    env_file:
+      - backend/.env
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=mydb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Bakylin200511
+    networks:
+      - app-network
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - backend-service
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
